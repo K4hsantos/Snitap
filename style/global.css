@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --snitap-sun: #FFCD1E;
+    --snitap-sky-mid: #06B6D4;
+    --snitap-sky-light: #67E8F9;
+    --snitap-joy-mid: #DB2777;
+    --snitap-joy-light: #F472B6;
+    --snitap-leaf-mid: #16A34A;
+
+    --text: #000000;
+    --highlights: #000000;
+    --background: #FAFAFA;
+
+    --font-family1: 'Syne', 'sans-serif';
+    --font-family2: 'Montserrat', 'sans-serif';
+
+    --fw-md: 500;
+    --fw-bold: 700;
+
+    --fs-lg: 1.5rem;
+    --fs-xlg: 2rem;
+    --span: .75rem;
+
+    --px-lg: 1.5rem;
+}
+
+body {
+    background-color: var(--background);
+}
+
+h1, h2 {
+    font-family: var(--font-family1);
+    font-weight: var(--fw-bold);
+}
+
+h1 {
+    font-size: var(--fs-xlg);
+    line-height: 125%;
+}
+
+h2 {
+    font-size: var(--fs-lg);
+    line-height: 120%;
+}
+
+span {
+    font-family: var(--font-family2);
+    font-size: var(--span);
+    line-height: 150%;
+}
+
+@media (width >= 80em) {
+    :root {
+        --fs-lg: 2.5rem;
+        --fs-xlg: 4rem;
+        --span: .875rem;
+
+        --px-lg: 2rem;
+    }
+}
