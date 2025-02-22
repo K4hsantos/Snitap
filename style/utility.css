@@ -6,6 +6,6 @@
 
 @media (width >= 80em) {
     .container {
-        --max-width: 80rem;
+        --max-width: 90rem;
     }
 }

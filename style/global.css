@@ -59,6 +59,10 @@ span {
     line-height: 150%;
 }
 
+a {
+    text-decoration: none;
+}
+
 @media (width >= 80em) {
     :root {
         --fs-lg: 2.5rem;
