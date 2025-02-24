@@ -29,9 +29,13 @@
 
     --fs-lg: 1.5rem;
     --fs-xlg: 2rem;
-    --span: .75rem;
+    --span: .875rem;
 
     --px-lg: 1.5rem;
+}
+
+html, button {
+    font: 500 1rem/1.5 var(--font-family2);
 }
 
 body {
@@ -53,11 +57,11 @@ h2 {
     line-height: 120%;
 }
 
-span {
+/* span {
     font-family: var(--font-family2);
     font-size: var(--span);
-    line-height: 150%;
-}
+    line-height: 1.5;
+} */
 
 a {
     text-decoration: none;

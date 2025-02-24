@@ -1,0 +1,7 @@
+
+
+@media (width >= 80em) {
+    .hero-image {
+        display: none;
+    }
+}

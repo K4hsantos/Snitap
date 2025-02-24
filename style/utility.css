@@ -4,8 +4,16 @@
     margin-inline: auto;
 }
 
+.desktop-only {
+    display: none;
+}
+
 @media (width >= 80em) {
     .container {
         --max-width: 90rem;
+    }
+
+    .desktop-only {
+        display: initial;
     }
 }
