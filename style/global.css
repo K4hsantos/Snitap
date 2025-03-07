@@ -38,11 +38,6 @@ html, button {
     font: 500 1rem/1.5 var(--font-family2);
 }
 
-html, body {
-    /* overflow-x: hidden; */
-  }
-  
-
 body {
     background-color: var(--background);
 }
